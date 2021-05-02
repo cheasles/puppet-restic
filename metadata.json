@@ -1,0 +1,29 @@
+{
+  "name": "puppet-restic",
+  "version": "1.0.0",
+  "author": "cheasles",
+  "summary": "Restic module",
+  "license": "Apache-2.0",
+  "source": "https://github.com/cheasles/puppet-restic.git",
+  "project_page": "https://github.com/cheasles/puppet-restic",
+  "issues_url": "https://github.com/cheasles/puppet-restic/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 1.0.0"
+    },
+    {
+      "name": "pk-systemd",
+      "version_requirement": ">= 1.1.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "9",
+        "10"
+      ]
+    }
+  ]
+}
