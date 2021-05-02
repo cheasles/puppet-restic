@@ -1,6 +1,0 @@
-# ci/rakefile_lint
-require 'puppet-lint/tasks/puppet-lint'
-
-PuppetLint.configuration.show_ignored = true
-PuppetLint.configuration.ignore_paths = ["modules/**/*"]
-PuppetLint.configuration.send("disable_autoloader_layout")
